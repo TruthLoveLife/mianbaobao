@@ -1,0 +1,15 @@
+gradio
+loguru
+HyperPyYAML
+openai
+dashscope
+numpy
+pandas
+pydantic
+python-dotenv
+PyYAML
+llama-index-core
+llama-index-embeddings-dashscope
+llama-index-postprocessor-dashscope-rerank-custom
+llama-index-readers-file
+llama-index-vector-stores-faiss

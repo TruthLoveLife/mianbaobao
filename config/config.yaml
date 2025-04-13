@@ -1,0 +1,28 @@
+BASEPATH: ''
+
+Data:  
+  DataPath: !ref <BASEPATH>/data
+  CoveringVectors: False # 是否覆盖已经生成的向量
+
+LLM:
+  api_key: 百炼API Key
+  dashscope_url: 'https://dashscope.aliyuncs.com/compatible-mode/v1'
+  model_name: 'qwen-max'
+  top_k: 5  # 检索的topk数量
+  top_p: 0.7  # 检索的top_p
+  temperature: 0.80  # LLM检索温度
+  max_tokens: 2048  # 生成的最大token数
+  history_rounds: 10
+
+
+RAG:
+  recalled_chunks: 5  # 召回的chunk数量
+  similarity_threshold: 0.7  # 相似度阈值
+
+subjects:
+  - 'ai_agents'
+  - 'rag'
+  - 'llm'
+  - 'code_ability'
+
+
